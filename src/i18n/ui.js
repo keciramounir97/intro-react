@@ -1,0 +1,42 @@
+import { t } from '../utils/i18n'
+
+export const UI = {
+  brand: t('Web Academy', 'Académie Web', 'أكاديمية الويب'),
+  brandSub: t('Learn React from zero', 'Apprendre React depuis zéro', 'تعلّم رياكت من الصفر'),
+  search: t('Search tutorials...', 'Rechercher un tutoriel...', 'ابحث في الدروس...'),
+  searchEmpty: t('No matching lesson.', 'Aucun cours correspondant.', 'لا يوجد درس مطابق.'),
+  menu: t('Menu', 'Menu', 'القائمة'),
+  close: t('Close', 'Fermer', 'إغلاق'),
+  themeLight: t('Light mode', 'Mode clair', 'الوضع الفاتح'),
+  themeDark: t('Dark mode', 'Mode sombre', 'الوضع الداكن'),
+  language: t('Language', 'Langue', 'اللغة'),
+  onThisPage: t('On this page', 'Sur cette page', 'في هذه الصفحة'),
+  previous: t('Previous', 'Précédent', 'السابق'),
+  next: t('Next', 'Suivant', 'التالي'),
+  copy: t('Copy', 'Copier', 'نسخ'),
+  copied: t('Copied', 'Copié', 'تم النسخ'),
+  remember: t('Remember', 'À retenir', 'تذكّر'),
+  tip: t('Tip', 'Astuce', 'نصيحة'),
+  warning: t('Warning', 'Attention', 'تنبيه'),
+  example: t('Example', 'Exemple', 'مثال'),
+  homeHero: t(
+    'Learn HTML, CSS, JavaScript and React — in French, Arabic and English.',
+    'Apprends HTML, CSS, JavaScript et React — en français, arabe et anglais.',
+    'تعلّم HTML و CSS وجافاسكريبت ورياكت — بالفرنسية والعربية والإنجليزية.',
+  ),
+  homeLead: t(
+    'A W3Schools-style academy: sidebar lessons, long definitions, comparisons, and everything you need before writing your first React component.',
+    'Une académie façon W3Schools : leçons dans le menu, définitions longues, comparaisons, et tout ce qu’il faut avant d’écrire ton premier composant React.',
+    'أكاديمية بأسلوب W3Schools: دروس في الشريط الجانبي، تعريفات مطوّلة، مقارنات، وكل ما تحتاجه قبل كتابة أول مكوّن React.',
+  ),
+  startCourse: t('Start the course', 'Commencer le cours', 'ابدأ الدورة'),
+  chapters: t('Chapters', 'Chapitres', 'الفصول'),
+  openLesson: t('Open lesson', 'Ouvrir le cours', 'افتح الدرس'),
+  footer: t(
+    'Educational site for beginners. Practice in the editor, then build real apps.',
+    'Site pédagogique pour débutants. Entraîne-toi, puis construis de vraies applications.',
+    'موقع تعليمي للمبتدئين. تمرّن ثم ابنِ تطبيقات حقيقية.',
+  ),
+  noArticle: t('This lesson was not found.', 'Ce cours est introuvable.', 'هذا الدرس غير موجود.'),
+  results: t('Search results', 'Résultats de recherche', 'نتائج البحث'),
+}
