@@ -1,4 +1,4 @@
-# Web Academy
+# intro-react
 
 Site pédagogique façon W3Schools pour apprendre HTML, CSS, JavaScript, TypeScript, le DOM, React, Node.js, npm, Vite, Next.js et React Native.
 
